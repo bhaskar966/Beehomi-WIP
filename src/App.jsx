@@ -1,11 +1,13 @@
 import './App.css'
 
+import beehomiLogo from "./assets/BeeWalls_Icon.svg"
+
 function App() {
 
   return (
     <>
       <div class="flex flex-col items-center justify-center h-screen px-4">
-          <img src='src\assets\BeeWalls_Icon.svg' className='w-64'/>
+          <img src={beehomiLogo} alt='Beehomi Logo' className='w-64'/>
           <h1 class="text-4xl font-bold text-gray-800 mb-4">Beehomi is coming Soon</h1>
           <p class="text-gray-600 text-lg mb-8">We're working hard to bring you an amazing new website. Stay tuned!</p>
           <div class="flex space-x-4">
